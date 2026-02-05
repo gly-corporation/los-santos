@@ -104,9 +104,10 @@ section {
     background-size: cover;
     background-position: center right;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align: center;
+    padding-top: 10vh;
 }
 
 .hero-content {
