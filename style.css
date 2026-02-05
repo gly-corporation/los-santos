@@ -92,12 +92,12 @@ main {
 }
 
 section {
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
 .hero {
-    height: 100vh;
+    height: 50vh;
     background-image: 
         linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
         url("assets/Los\ Santos\ Detailer\ 16_9\ Hero\ Banner.png");
@@ -143,3 +143,52 @@ section {
     background-color: #e6d7a3;
     transform: translateY(-2px);
 }
+
+.services {
+    padding: 0px 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.services h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #e6d7a3;
+    margin-bottom: 15px;
+}
+
+.services p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.service-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 8px;
+    width: 300px;
+    color: #ffffff;
+}
+
+.service-item h3 {
+    color: #bfa64a;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.service-item p {
+    font-size: 16px;
+}
+
+.services .btn-primary {
+    margin-top: 40px;
+}
+
